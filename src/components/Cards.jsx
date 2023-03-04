@@ -37,7 +37,7 @@ const handleClick = () => {
               <Avatar src={hansel}  />
             </AvatarBorder>
           <Tweets>554 TWEETS</Tweets>
-          <Followers>{followers.toLocaleString("ja-JP")} FOLLOWERS</Followers>    
+          <Followers>{followers.toLocaleString("ja-JP")} FOLLOWER</Followers>    
           <FollowButton onClick={handleClick} backgroundColor={color ? "#5CD3A8;" : "#EBD8FF;"} > {isFollowing ? "FOLLOWING" : "FOLLOW"}</FollowButton> 
         </Profile>
       </Box>
